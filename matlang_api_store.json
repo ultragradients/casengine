@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "users": {
     "rohanhariharan1@gmail.com": {
@@ -18,4 +19,26 @@
       "variables": {}
     }
   }
+=======
+{
+  "users": {
+    "rohanhariharan1@gmail.com": {
+      "password": "1b1465c0343178bad48b515c09deff76b66c33721298385231f2f434c958f839",
+      "created": null,
+      "keys": [
+        "CXtjSmRSnFq3o57W1E8bsnso2DjEioWEb0i_Jk3gSuo"
+      ]
+    }
+  },
+  "api_keys": {
+    "CXtjSmRSnFq3o57W1E8bsnso2DjEioWEb0i_Jk3gSuo": {
+      "owner": "rohanhariharan1@gmail.com",
+      "permissions": [
+        "read",
+        "write"
+      ],
+      "variables": {}
+    }
+  }
+>>>>>>> 017f10625aef5a853b68136faa38a973bf3e240a
 }

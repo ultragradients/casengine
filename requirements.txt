@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 fastapi
 uvicorn
 pydantic
 numpy
 matplotlib
+=======
+fastapi
+uvicorn
+pydantic
+numpy
+matplotlib
+>>>>>>> 017f10625aef5a853b68136faa38a973bf3e240a
 sympy
