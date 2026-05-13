@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import numpy as np
 import sympy as sp
 from sympy import *
@@ -855,7 +854,7 @@ if __name__ == "__main__":
             print(f'{var} = {value}')
 """
 
-=======
+
 import numpy as np
 import sympy as sp
 from sympy import *
@@ -1711,6 +1710,3 @@ if __name__ == "__main__":
         for var, value in local_vars:
             print(f'{var} = {value}')
 """
-
->>>>>>> 017f10625aef5a853b68136faa38a973bf3e240a
-print(Lim(x>>0, sin(x)/x))

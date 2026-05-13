@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from fastapi import FastAPI, APIRouter
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
@@ -538,7 +537,7 @@ def revoke_key(key: str, authorization: str = Header(None)):
     return {"status": "deleted"}
 
 
-=======
+
 from fastapi import FastAPI, APIRouter
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
@@ -1078,5 +1077,4 @@ def revoke_key(key: str, authorization: str = Header(None)):
     return {"status": "deleted"}
 
 
->>>>>>> 017f10625aef5a853b68136faa38a973bf3e240a
 app.include_router(v1beta1)
