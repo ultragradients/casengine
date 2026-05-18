@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "users": {
     "rohanhariharan1@gmail.com": {
@@ -19,7 +18,6 @@
       "variables": {}
     }
   }
-=======
 {
   "users": {
     "rohanhariharan1@gmail.com": {
@@ -40,5 +38,4 @@
       "variables": {}
     }
   }
->>>>>>> 017f10625aef5a853b68136faa38a973bf3e240a
 }

@@ -1078,3 +1078,7 @@ def revoke_key(key: str, authorization: str = Header(None)):
 
 
 app.include_router(v1beta1)
+
+
+f = Func((x*(0.5)*sp.cos(45))/((1.2)*114*400))
+f >> x
