@@ -707,7 +707,3 @@ class Func:
             lower, upper = key
             return sp.integrate(self.expr, (x, lower, upper))
         raise TypeError("Key must be an int (derivative order) or [lower, upper] (definite integral).")
-
-
-f = Func((x*(0.5)*sp.cos(sp.rad(45)))/((1.2)*114*400))
-print(f >> x)
