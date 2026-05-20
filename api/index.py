@@ -368,16 +368,7 @@ from pydantic import BaseModel, Field
 
 # ── re-use helpers from the parent module ──────────────────────────────────
 # (imported when this file is exec'd / included in main.py)
-from __main__ import (
-    _validate_api_key,
-    _build_globals,
-    _is_assignment,
-    _render_plot,
-    _safe_str,
-    _save_store,
-    Func,
-    Lim,
-)
+
 
 # ── rate-limit store ────────────────────────────────────────────────────────
 _rate_windows: dict[str, deque] = {}
@@ -1010,4 +1001,3 @@ def revoke_key(key: str, authorization: str = Header(None)):
 # ---------------------------------------------------------------------------
 app.include_router(v1beta1)
 app.include_router(v1beta2)
-app.include_router(v1)
